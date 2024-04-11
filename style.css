@@ -52,7 +52,7 @@ section.Shop > article {
     margin: .5rem;
 }
 
-article > img:hover {
+article > img {
     display: inline-block;
     position: relative;
     width: 200px;
@@ -123,10 +123,4 @@ section.Flexbox {
 div.Column {
     display: flex;
     flex-direction: column;
-}
-
-main div article img {
-    display: none;
-    position: absolute;
-    bottom: 58rem;
 }
