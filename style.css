@@ -45,6 +45,7 @@ section.Shop {
 }
 
 section.Shop > article {
+    position: relative;
     width: 200px;
     height: 400px;
     background-color: gray;
@@ -52,8 +53,14 @@ section.Shop > article {
 }
 
 article > img {
+    position: relative;
     width: 200px;
     height: 400px;
     object-fit: cover;
 }
+
+section.Shop article span {
+    position: absolute;
+}
+
 
