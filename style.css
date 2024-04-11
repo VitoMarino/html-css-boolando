@@ -41,7 +41,7 @@ main {
 section.Shop {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 section.Shop > article {
@@ -93,4 +93,33 @@ p.gren {
     font-size: small;
     background-color: #027f02;
     color: white;
+}
+
+p.Descrizione {
+    font-size: .7rem;
+}
+
+p.Descrizione strong {
+    text-transform: uppercase;
+}
+
+code.Coloreuro {
+    color: #ff0000;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    color: white;
+}
+
+section.Flexbox {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.Column {
+    display: flex;
+    flex-direction: column;
 }
