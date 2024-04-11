@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.Container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background-color: #ff6900;
+    color: white;
+    padding: 1rem;
+}
+
+header span img {
+    height: 50%;
+    width: 30%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: .2rem;
+}
+
+.grey {
+    po
+}
