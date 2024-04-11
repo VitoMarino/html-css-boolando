@@ -16,17 +16,17 @@ ul {
 .navbar {
     background-color: #ff6900;
     color: white;
-    padding: 1rem;
+    padding: .5rem;
 }
 
-header span img {
-    height: 50%;
-    width: 30%;
+header img {
+    height: 20%;
+    width: 10%;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -61,6 +61,36 @@ article > img {
 
 section.Shop article span {
     position: absolute;
+    top: .5rem;
+    right: 0;
+    padding: .5rem;
+    background-color: white;
 }
 
+p.red {
+    position: absolute;
+    bottom: 2rem;
+    padding: .1rem;
+    font-size: small;
+    background-color: #ff0000;
+    color: white;
+}
 
+p.gren {
+    position: absolute;
+    bottom: 2rem;
+    left: 2.2rem;
+    padding: .1rem;
+    font-size: small;
+    background-color: #027f02;
+    color: white;
+}
+
+#Greensingolo {
+    position: absolute;
+    bottom: 2rem;
+    padding: .1rem;
+    font-size: small;
+    background-color: #027f02;
+    color: white;
+}
