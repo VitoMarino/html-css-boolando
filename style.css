@@ -34,6 +34,25 @@ header span img {
     margin: .2rem;
 }
 
-.grey {
-    po
+main {
+    padding: 3rem;
 }
+
+section.Shop {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+section.Shop > article {
+    width: 200px;
+    height: 400px;
+    background-color: gray;
+    margin: .5rem;
+}
+
+article > img {
+    width: 200px;
+    height: 400px;
+    object-fit: contain;
+}
+
